@@ -1,8 +1,11 @@
 # election-example
 How to Build Ethereum Dapp
+[link](https://www.youtube.com/watch?v=3681ZYbDSSk&feature=youtu.be) for video tutorial
+[step by step tutorial](http://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial)
+with all commands like `$ npm install -g truffle`, `$ truffle unbox pet-shop` and so on.
 
 
-### truffle migrate
+### My truffle migrate
 
 ```ebazhanov@EvgeniiBazhanov ~/D/election-example> truffle migrate
 ⚠️  Important ⚠️
@@ -79,12 +82,12 @@ Truffle Develop started at http://127.0.0.1:9545/
    '0x8E467EE7C018bd5B6b84a7503E1e24AF5d1E6B6E'
    truffle(development)> app.candidate()
    'Candidate 1'
-   truffle(development)>```
-   
-    
+   truffle(development)>
+   ```
+
 ## TIPS
 
-to fix this you have to run Ganash
+to avoid the issue below check if your 'Ganash' is running
 
 ```
 ebazhanov@EvgeniiBazhanov ~/D/election-example> truffle migrate
