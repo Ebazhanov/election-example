@@ -97,3 +97,32 @@ Could not connect to your Ethereum client. Please check that your Ethereum clien
     - is accessible over the network
     - is properly configured in your Truffle configuration file (truffle-config.js)
 ```
+
+in version 0.5.0 we have to use constructor instead of function for (getter and setter)
+
+```
+function Election () public {
+    candidate = "Candidate 1";
+}
+```
+has to be changed to 
+
+```
+    constructor () public {
+        candidate = "Candidate 1";
+    }
+```
+and 
+
+```
+  function Migrations () public {
+    owner = msg.sender;
+  }
+```
+to 
+
+```
+  constructor() public {
+    owner = msg.sender;
+  }
+```
