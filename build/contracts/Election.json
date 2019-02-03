@@ -340,12 +340,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x8E467EE7C018bd5B6b84a7503E1e24AF5d1E6B6E",
-      "transactionHash": "0x2cab9c2287998cd8dd37ba594a5bde3ef5e7ccfa178299436739c63f15ae3efd"
+      "address": "0x3D032645fBaA1762899db118D28fEaE421A095f6",
+      "transactionHash": "0xf2f9a4777bdfe327b0fb81720dc0868af984860a279aeffca9b1697e698364b0"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-01-23T23:20:32.706Z",
+  "updatedAt": "2019-01-24T17:21:55.760Z",
   "devdoc": {
     "methods": {}
   },
